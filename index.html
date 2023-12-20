@@ -1,25 +1,30 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Simple Calculator
+        Foot-to-inches-converter
     </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="body">
-    <h1>
+    <h1 class="bigtext">
     <center>
-        FOOT TO INCHES CONVERTER
+        FOOTCONVERT
     </center>
 </h1>
         <center>
-<form id="converter form">
-    <label for="box1">
-        Enter your foot:
+<form id="converter form" class="form1">
+    <label for="box1" class="secondtext">
+        Enter your foot: 
     </label>
     <input type="text" id="box1">
-    <button type="button" id="convertbutton"  onclick="convert()"> Convert</button>
-    <p id="result"></p>
+    <button type="button" id="convertbutton" onclick="convert()" 
+    class="button"> Convert</button>
+    
 </form>
+<p id="result"></p>
 </center>
 <script src="script.js"> 
 </script>

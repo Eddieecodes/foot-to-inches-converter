@@ -1,3 +1,24 @@
 .body{
-    background-color: blue;
+    background-color: whitesmoke;
+    margin-top: 70px;
+}
+.bigtext{
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+.secondtext{
+    color: black;
+    font-weight: 300px;
+}
+.form1{
+    color: black;
+    margin-left: 450px;
+    display: flex;
+    height: 22px;
+}
+.button{
+    margin-left:15px ;
 }
